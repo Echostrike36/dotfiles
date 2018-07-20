@@ -251,9 +251,9 @@ bindsym $mod+shift+z exec ~/.config/i3/scripts/lock_sleep.sh
 
 ### Configure Media Keys ###
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume alsa_output.usb-Kingston_HyperX_7.1_Audio_00000000-00.analog-stereo +5% #increase volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume alsa_output.usb-Kingston_HyperX_7.1_Audio_00000000-00.analog-stereo -5% #decrease volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute alsa_output.usb-Kingston_HyperX_7.1_Audio_00000000-00.analog-stereo toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +5% #increase volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo -5% #decrease volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound
 
 # Switch Audio Outputs
 #bindsym $mod+shift+a --no-startup-id pactl 
