@@ -1,0 +1,4 @@
+#!/bin/bash
+# Show the CPU temperature
+echo " "$(sensors | grep "Core 0:" | cut -c16-17)" °C"
+#echo " "$(acpi -t | grep 1 | cut -c16-17)" °C"
