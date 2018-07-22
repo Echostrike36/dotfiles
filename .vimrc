@@ -1,4 +1,5 @@
 "================================== VUNDLE ====================================
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " Required for Vundle
 runtime! debian.vim
 set nocompatible
