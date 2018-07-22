@@ -56,16 +56,17 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # Start i3bar to display a workspace bar (plus the system information i3blocks)
 bar {
-        status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	font pango:Ubuntu Bold 14
-	colors {
-		background $bar-color
-	    	separator #757575
-		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $bar-color         $bar-color         $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-	}
+    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    tray_output none
+    font pango:Ubuntu Bold 14
+    colors {
+	    background $bar-color
+	    separator #757575
+	    #                  border             background         text
+	    focused_workspace  $bg-color          $bg-color          $text-color
+	    inactive_workspace $bar-color         $bar-color         $inactive-text-color
+	    urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+    }
 }
 
 ### Extra ###
