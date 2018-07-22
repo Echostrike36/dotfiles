@@ -1,4 +1,14 @@
 #!/bin/bash
+
 # Show the CPU temperature
-echo " "$(sensors | grep "Core 0:" | cut -c16-17)" °C"
-#echo " "$(acpi -t | grep 1 | cut -c16-17)" °C"
+temp=$(sensors | grep "Core 0:" | cut -c16-17)
+
+if [[ $temp -ge 90 ]] ; then
+    color='#FF0000'
+elif [[ $temp -ge 70 ]] ; then
+    color='#FFFC00'
+fi
+
+echo " $temp°C"
+echo " $temp°C"
+echo $color

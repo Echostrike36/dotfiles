@@ -1,0 +1,1 @@
+/home/sean/.config/i3/scripts/cpu-temp.sh##Linux.Desktop16L
