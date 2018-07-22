@@ -261,3 +261,6 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute alsa_output.pci-0
 # Media player controls
 #bindsym XF86AudioPlay exec playerctl play
 #bindsym XF86AudioPause exec playerctl pause
+#
+#================================= Applications ==============================#
+exec --no-startup-id ~/.config/i3/scripts/dropbox-start.sh
