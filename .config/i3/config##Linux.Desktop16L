@@ -206,16 +206,16 @@ bindsym $mod+9 workspace $workspace9
 bindsym $mod+0 workspace $workspace10
 
 ### Assign Specific Workspaces to Specific Outputs ###
-workspace $workspace1 output DP-2
-workspace $workspace2 output DP-2
-workspace $workspace3 output DP-2
-workspace $workspace4 output DP-4 
-workspace $workspace5 output DP-4
-workspace $workspace6 output DP-4
+workspace $workspace1 output DP-2.8
+workspace $workspace2 output DP-2.8
+workspace $workspace3 output DP-2.8
+workspace $workspace4 output DP-2.1.8
+workspace $workspace5 output DP-2.1.8
+workspace $workspace6 output DP-2.1.8
 workspace $workspace7 output HDMI-0
 workspace $workspace8 output HDMI-0
-workspace $workspace9 output DP-2
-workspace $workspace10 output DP-2 
+workspace $workspace9 output DP-2.8
+workspace $workspace10 output DP-2.8
 
 
 #============================ Logout-Suspend-Lock ============================#
